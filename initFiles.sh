@@ -35,9 +35,9 @@ protocol = udp
 bind = 0.0.0.0:5060
 
 ; Inclusion des autres fichiers
+#include pjsip_endpoints.conf
 #include pjsip_aor.conf
-#include pjsip_auth.conf
-#include pjsip_endpoints.conf"
+#include pjsip_auth.conf"
 
 PJSIP_AOR="; Configuration des AORs (Adresse Of Record)
 ; Format:
